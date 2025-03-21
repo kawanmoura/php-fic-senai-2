@@ -5,13 +5,6 @@ const successMessage = document.querySelector("#success-message");
 
 function cadUser(event) {
     event.preventDefault();
-    const emailValue = email.value;
-    const senhaValue = senha.value;
-
-    if (emailValue && senhaValue) {
-        successMessage.style.display = "block";
-        email.value = "";
-        senha.value = "";
-    }
+    window.location.href = "outra.html";
 }
 button.addEventListener("click", cadUser);

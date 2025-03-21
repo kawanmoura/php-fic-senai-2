@@ -14,23 +14,27 @@
         <main>
             <form>
                 <div class="form-control">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
                 </div>
                 <div class="form-control">
-                    <button>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" />
+                </div>
+                <div class="form-control">
+                    <button id="button" onclick="cadUser(event)">
                         Cadastrar
                     </button>
                 </div>
             </form>
-            <ul class="lista">
-                <li>Felipe</li>
-                <li>Caio</li>
-            </ul>
+            <p id="success-message" style="display: none;">Cadastrado com sucesso, entre em nosso site</p>
+            <br><br>
+            <a href="outra.html">Sport Elevate</a>
         </main>
 
     </div>
 
     <script src="script.js"></script>
+    
 </body>
 </html>
